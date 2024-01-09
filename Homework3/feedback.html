@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добавить отзыв</title>
+    <style>
+        #error {
+            color: red;
+            display: none;
+        }
+    </style>    
+</head>
+<body>
+    <h1>Новый отзыв</h1>
+    <input id="product-name" type="text" placeholder="Товар" size="80">
+    <div class="content">
+        <textarea id="product-feedback" placeholder="Отзыв" cols="80" rows="5"></textarea>
+    </div>
+    <div class="actions">
+        <button id="add-feedback">Добавить отзыв</button>
+        <button id="back-main">Вернуться к отзывам</button>
+    </div>
+    <p id="error" font>Не заполнены обязательные поля</p>
+
+    <script src="repo.js"></script>
+    <script src="feedback.js"></script>
+</body>
+</html>
